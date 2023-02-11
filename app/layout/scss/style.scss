@@ -1,10 +1,26 @@
 @import "./utils/libs";
-@import "./utils/fonts";
 @import "./utils/vars";
 @import "./global/global";
 @import "./global/animation";
 
 //!Компоненты
-@import "../../js/components/popOver.scss";
+@import "../../js/components/popOver/popOver.scss";
+
+.trigger-popover {
+	position: relative;
+	width: 200px;
+
+	margin: 0 auto;
+	margin-top: 500px;
+
+	background-color: red;
+
+	border-radius: 5px;
+	border: none;
+
+	text-align: center;
+	color: #ffffff;
+	line-height: 40px;
+}
 
 @import "./global/media";
